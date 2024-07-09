@@ -28,6 +28,22 @@ body{
 section{
     margin: 100px 0;
 }
+.btn{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border:1px solid #FF0000;
+    border-radius: 8px;
+    background: none;
+    transition: all linear 0.3s;
+}
+.btn:hover{
+    background: #FF0000;
+}
+.text_primary{
+    color:#FF0000;
+}
 /* Common css end */
 /* Banner section start */
 #header .banner{
@@ -82,7 +98,6 @@ section{
     
 }
 #party_sec .row {
-    display: flex;
     justify-content: flex-start;
 }
 .party_sec_ttl{
@@ -91,11 +106,20 @@ section{
     font-size: 64px;
     font-weight: 900;
     margin-bottom: 10px;
+    line-height: 88px;
 }
 .party_ssc_text{
     color:#fff;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin: 10px 0;
+    line-height: 30px;
+
+}
+#party_sec .btn{
+    margin-top: 20px;
+}
+#party_sec img{
+    margin-left: 80px;
 }
 /* Party Section End */
