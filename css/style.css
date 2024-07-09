@@ -35,6 +35,8 @@ section{
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-top: 20px;
 }
 .banner_sub_ttl{
     color:#fff;
@@ -70,3 +72,30 @@ section{
     margin-bottom: 50px;
 }
 /* off Section End */
+/* Party Section Start */
+
+#party_sec .container{
+    background:linear-gradient(90deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    padding: 0 100px;
+    height: 600px;
+    border-radius: 16px;
+    
+}
+#party_sec .row {
+    display: flex;
+    justify-content: flex-start;
+}
+.party_sec_ttl{
+    color:#fff;
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.party_ssc_text{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+/* Party Section End */
