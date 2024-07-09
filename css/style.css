@@ -41,15 +41,40 @@ section{
 .btn:hover{
     background: #FF0000;
 }
+.sec_ttl{
+    color:#070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.sec_sub_ttl{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.sec_text{
+    color: #07021199;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
 .text_primary{
     color:#FF0000;
+}
+.text_secondary{
+    color:#fff
+}
+.text_dark{
+    color: #070211;
 }
 /* Common css end */
 /* ------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 header section start
 ---------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------- */
+-------------------------------------------------------------------------------------------*/
 /* Banner section start */
 #header .banner{
     background:linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/banner.png);
@@ -77,26 +102,20 @@ header section start
 ---------------------------------------------------------------------------------------------
 header section End
 ---------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------- */
+------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 Main section start
 ---------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------- */
+------------------------------------------------------------------------------------------ */
 /* off Section Start */
-.off_ttl{
+.off_discount{
     font-size: 88px;
     font-weight: 700;
     margin-bottom: 40px;
-}
-.off_text{
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
+} 
 .off_sub_ttl{
-    color:#070211;
-    font-size: 48px;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     margin-bottom: 50px;
 }
@@ -121,9 +140,6 @@ Main section start
     line-height: 88px;
 }
 .party_ssc_text{
-    color:#fff;
-    font-size: 18px;
-    font-weight: 400;
     margin: 10px 0;
     line-height: 30px;
 }
@@ -160,29 +176,8 @@ Main section start
 #offer_sec .row{
     justify-content: space-between;
 }
-#offer_sec .offer_sec_ttl_1{
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 25px;
-
-}
-#offer_sec .offer_sec_sub_ttl{
-    font-family: "Merriweather", serif;
-    font-size: 48px;
-    font-weight: 900;
-    margin-bottom: 25px;
-}
-#offer_sec .offer_sec_text{
-    color: #07021199;
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 25px;
-}
-#offer_sec .offer_sec_ttl_2{
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 25px;
-
+#offer_sec .sec_ttl{
+    font-family: "Inter", sans-serif;
 }
 #offer_sec .offer_item_2{
     padding:40px;
@@ -192,12 +187,6 @@ Main section start
 }
 /* offer Section End */
 /* Discount Section Start*/
-#discount .discount_sub_ttl{
-    color: #07021199;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 25px;
-}
 #discount .discount_ttl{
     color: #070211;
     font-family: "Merriweather", serif;
@@ -206,17 +195,32 @@ Main section start
     margin-bottom: 25px;
 }
 #discount .discount_text{
-    color: #07021199;
-    font-size: 20px;
-    font-weight: 400;
     margin-bottom: 100px;
 }
 /* Discount Section End*/
+/* Portfolio Section Start */
+/* Portfolio Section End */
+#portfolio .protfolio_img img{
+   transition: all linear 0.3s;
+   border-radius: 20px;
+   border: 2px solid #fff;
+   opacity: 80%;
 
+}
+#portfolio .protfolio_img img:hover{
+    border: 2px solid #ba0468;
+    opacity: 100%;
+}
+#portfolio .row{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: normal;
+    row-gap: 20px;
+}
 
 
 /* ------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 Main section End
 ---------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------- */
+-------------------------------------------------------------------------------------------*/
