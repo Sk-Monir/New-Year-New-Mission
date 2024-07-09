@@ -137,7 +137,42 @@ section{
     background: #FF0000;
     margin-top: 70px;
 }#date_sec .btn:hover{
-    color:#070211;
+    color:#FF0000;
     background: none;
 }
 /* Date Section End */
+/* offer Section Start */
+#offer_sec .row{
+    justify-content: space-between;
+}
+#offer_sec .offer_sec_ttl_1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+
+}
+#offer_sec .offer_sec_sub_ttl{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+#offer_sec .offer_sec_text{
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+#offer_sec .offer_sec_ttl_2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+}
+#offer_sec .offer_item_2{
+    padding:40px;
+    border:15px solid #FF0000;
+    border-radius: 100%;
+    margin-left: -50px ;
+}
+/* offer Section End */
