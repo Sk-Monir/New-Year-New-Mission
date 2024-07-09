@@ -70,13 +70,11 @@ section{
 /* Banner section End */
 /* off Section Start */
 .off_ttl{
-    color:#FF0000;
     font-size: 88px;
     font-weight: 700;
     margin-bottom: 40px;
 }
 .off_text{
-    color:#FF0000;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -94,8 +92,7 @@ section{
     background:linear-gradient(90deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
     padding: 0 100px;
     height: 600px;
-    border-radius: 16px;
-    
+    border-radius: 16px;  
 }
 #party_sec .row {
     justify-content: flex-start;
@@ -114,7 +111,6 @@ section{
     font-weight: 400;
     margin: 10px 0;
     line-height: 30px;
-
 }
 #party_sec .btn{
     margin-top: 20px;
@@ -123,3 +119,25 @@ section{
     margin-left: 80px;
 }
 /* Party Section End */
+/* Date Section Start */
+/* Date Section Start */
+#date_sec .container{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    padding: 100px 0;   
+}
+#date_sec p{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 60px;
+}
+#date_sec .btn{
+    background: #FF0000;
+    margin-top: 70px;
+}#date_sec .btn:hover{
+    color:#070211;
+    background: none;
+}
+/* Date Section End */
